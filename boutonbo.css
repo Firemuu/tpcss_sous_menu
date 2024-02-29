@@ -1,0 +1,97 @@
+
+#menu-demo,ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-demo>li{
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 10px 10px 0 0;
+}
+
+#menu-demo>li>li{
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 10px 10px 0 0;
+}
+
+#menu-demo li{
+    width: 110px;
+    position: relative;
+}
+
+#menu-demo li>li{
+    width: 110px;
+    position: relative;
+}
+
+
+#menu-demo li:hover{
+    background: #87cefa;
+}
+
+#menu-demo li:hover>li:hover{
+    background: #87cefa;
+}
+
+#menu-demo a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: blue;
+}
+
+#menu-demo a>a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: blue;
+}
+
+#menu-demo>li>ul{
+    position: absolute;
+    left: -1000px;
+    background: #87cefa;
+    border: 1px solid blue;
+}
+
+#menu-demo>li>ul>li>ul{
+    position: absolute;
+    left: -1000px;
+    background: #87cefa;
+    border: 1px solid blue;
+}
+
+
+#menu-demo>li:hover>ul{
+    top: 100%;
+    left: 0;
+}
+
+
+#menu-demo>li>ul>li:hover>ul{
+    top: 0;
+    left: 110px;
+}
+
+
+#menu-demo a:hover{
+    text-decoration: underline;
+    color: rgb(10, 54, 39);;
+}
+
+#menu-demo a:hover>a:hover{
+    text-decoration: underline;
+    color: rgb(10, 54, 39);;
+}
+
+#menu-demo>li li:hover{
+    background: aquamarine;
+}
+   
+#menu-demo>li li:hover>li li:hover{
+    background: aquamarine;
+}
+   
